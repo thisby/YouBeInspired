@@ -269,7 +269,7 @@ def on_ui_tabs():
                         minimum=2,
                         maximum=100,
                         step=1,
-                        value=8,
+                        value=15,
                         label="Total Outpaint Steps",
                         info="The more it is, the longer your videos will be",
                     )
