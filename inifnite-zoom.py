@@ -117,8 +117,8 @@ def create_zoom(
             pass
     assert len(prompts_array) > 0, "prompts is empty"
 
-    width = 512
-    height = 512
+    width = 1080
+    height = 1080
     current_image = Image.new(mode="RGBA", size=(height, width))
     mask_image = np.array(current_image)[:, :, 3]
     mask_image = Image.fromarray(255 - mask_image).convert("RGB")
